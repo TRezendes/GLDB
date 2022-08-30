@@ -5,7 +5,13 @@ CREATE TABLE completed_activities (
 );
 
 CREATE TABLE item (
-	itemID uuid DEFAULT gen_random_uuid() CONSTRAINT pkey_itemID PRIMARY KEY,
+	itemID uuid DEFAULT gen_random_uuid() CONSTRAINT pkey_item PRIMARY KEY,
 	itemName TEXT CONSTRAINT UNIQUE NOT NULL,
 	itemCategory TEXT /*CONSTRAINT fkey_itemCategory_categoryName FOREIGN KEY(itemCategory) REFERENCES category(categoryName)*/
+);
+
+CREATE TABLE recipe(
+	recipeID uuid DEFAULT gen_random_uuid() CONSTRAINT pkey_recipe PRIMARY KEY,
+	recipeName TEXT CONSTRAINT UNIQUE NOT NULL,
+	
 );
