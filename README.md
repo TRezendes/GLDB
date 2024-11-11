@@ -3,4 +3,4 @@ The PostgreSQL database backend for [groceryList](https://github.com/TRezendes/g
 
 ---
 
-![GitHub](https://img.shields.io/github/license/trezendes/GLDB?color=blueviolet&style=flat-square)
+[![Static Badge](https://img.shields.io/badge/license-Anti--Capitalist_Software_License-D60270?style=flat-square)](LICENSE.md)
